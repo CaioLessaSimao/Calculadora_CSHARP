@@ -1,5 +1,4 @@
-﻿using InterfaceOperation;
-namespace subtracao
+﻿namespace Calculadora_c_.model.operation
 {
     public class Subtrair : IOperation
     {

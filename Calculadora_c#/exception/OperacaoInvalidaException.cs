@@ -1,4 +1,4 @@
-﻿namespace invalida
+﻿namespace Calculadora_c_.exception
 {
     public class OperacaoInvalidaException : Exception
     {

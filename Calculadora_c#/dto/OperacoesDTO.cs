@@ -1,4 +1,4 @@
-﻿namespace listaOperacoes
+﻿namespace Calculadora_c_.dto
 {
     public class OperacoesDTO
     {

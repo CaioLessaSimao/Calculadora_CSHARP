@@ -1,5 +1,4 @@
-﻿using InterfaceOperation;
-namespace divisao
+﻿namespace Calculadora_c_.model.operation
 {
     public class Dividir : IOperation
     {

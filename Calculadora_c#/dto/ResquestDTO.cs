@@ -1,4 +1,4 @@
-﻿namespace Resquest
+﻿namespace Calculadora_c_.dto
 {
     public class RequestDTO
     {

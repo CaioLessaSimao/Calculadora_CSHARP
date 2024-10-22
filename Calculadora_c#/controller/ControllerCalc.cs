@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using Resquest;
-using Response;
-using InterfaceOperation;
-using InterfaceCalculadora;
-using calculadora;
-using invalida;
-using listaOperacoes;
-using System.Runtime.InteropServices;
+﻿using System.Reflection;
+using Calculadora_c_.dto;
+using Calculadora_c_.exception;
+using Calculadora_c_.model;
+using Calculadora_c_.model.operation;
 
-namespace controller
+namespace Calculadora_c_.controller
 {
     public class ControllerCalc
     {
@@ -21,8 +13,8 @@ namespace controller
             int result = 0;
             ICalc calc = new Calc();
 
-            string pacoteBase = "Calculadora_c#.model.operation." + requestDTO.getOpcao();
-
+            string pacoteBase = "Calculadora_c_.model.operation." + requestDTO.getOpcao();
+            Console.WriteLine(pacoteBase);
             try
             {
                 // Usar reflection para obter o tipo da operação
@@ -38,7 +30,7 @@ namespace controller
             }
             catch (Exception e) when (e is TypeLoadException || e is TargetInvocationException ||
                                       e is MissingMethodException || e is InvalidCastException || 
-                                      e is System.ArgumentNullException)
+                                      e is ArgumentNullException)
             {
                 throw new OperacaoInvalidaException("Erro ao criar instância da operação: " + e.Message);
             }

@@ -1,5 +1,4 @@
-﻿using InterfaceOperation;
-namespace multiplicacao
+﻿namespace Calculadora_c_.model.operation
 {
     public class Multiplicar : IOperation
     {

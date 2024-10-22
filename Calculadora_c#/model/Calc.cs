@@ -1,7 +1,6 @@
-﻿using InterfaceCalculadora;
-using InterfaceOperation;
+﻿using Calculadora_c_.model.operation;
 
-namespace calculadora
+namespace Calculadora_c_.model
 {
     public class Calc : ICalc
     {

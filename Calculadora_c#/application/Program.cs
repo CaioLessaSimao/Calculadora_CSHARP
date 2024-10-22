@@ -1,9 +1,8 @@
-﻿using controller;
-using Response;
-using Resquest;
-using display;
+﻿using Calculadora_c_.controller;
+using Calculadora_c_.dto;
+using Calculadora_c_.view;
 
-namespace Programa
+namespace Calculadora_c_.application
 {
     class Program
     {

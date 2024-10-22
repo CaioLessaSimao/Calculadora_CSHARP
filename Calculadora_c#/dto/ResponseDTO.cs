@@ -1,4 +1,4 @@
-﻿namespace Response
+﻿namespace Calculadora_c_.dto
 {
     public class ResponseDTO
     {

@@ -1,4 +1,4 @@
-﻿namespace InterfaceOperation
+﻿namespace Calculadora_c_.model.operation
 {
     public interface IOperation
     {

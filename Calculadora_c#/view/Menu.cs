@@ -1,9 +1,7 @@
-﻿using controller;
-using Response;
-using Resquest;
-using listaOperacoes;
+﻿using Calculadora_c_.controller;
+using Calculadora_c_.dto;
 
-namespace display
+namespace Calculadora_c_.view
 {
     public class Menu
     {

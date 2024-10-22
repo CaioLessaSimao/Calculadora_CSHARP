@@ -1,5 +1,4 @@
-﻿using InterfaceOperation;
-namespace adicao
+﻿namespace Calculadora_c_.model.operation
 {
     public class Somar : IOperation
     {
